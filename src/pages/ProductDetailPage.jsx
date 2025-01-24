@@ -4,7 +4,7 @@ import { useParams } from "react-router-dom";
 import useGetAxios from "../hooks/useGetAxios";
 import Loading from "../components/ui/Loading";
 import Stars from "../components/ui/Stars";
-import ProductQuantity from "../components/Product/ProductQuantity";
+import ProductQuantity from "../components/product/ProductQuantity";
 import { toast } from "react-toastify";
 
 const ProductDetailPage = () => {
