@@ -2,7 +2,7 @@ import { useContext } from "react";
 import { Tab, TabGroup, TabList, TabPanel, TabPanels } from "@headlessui/react";
 import { CartContext } from "../context/CartContext";
 import TableCart from "../components/Checkout/TableCart";
-import FormCheckout from "../components/Checkout/formCheckout";
+import FormCheckout from "../components/Checkout/FormCheckout";
 
 const CheckoutPage = () => {
 
