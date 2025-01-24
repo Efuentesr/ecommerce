@@ -1,0 +1,35 @@
+npm create vite@latest ... (admin/react/javascript)
+npm i axios bootstrap react-bootstrap react-router-dom
+
+usaremos https://mockapi.io/ para simular backend
+npm install sweetalert2
+
+
+Link de servidor json:
+    https://json-server-vercel-git-main-osmar-montesinos-projects.vercel.app/products
+
+
+index.css:
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+npm i --save react-toastify
+npm install react-hook-form
+npm install react-icons
+
+npm install -D @tailwindcss/forms
+
+npm install @supabase/supabase-js @supabase/auth-ui-react @supabase/auth-ui-shared
+
+npm i leaflet react-leaflet@4
+luego hay que añadir lo siguiente en main.jsx:
+        import 'leaflet/dist/leaflet.css'
+
+
+agregar index.css:
+
+.leaflet-container {
+    height:100%;
+    width:100;
+}
